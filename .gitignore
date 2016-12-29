@@ -43,3 +43,6 @@ bower.json
 
 # Ignore Spring files.
 /spring/*.pid
+
+# Vim temp files
+.swp
