@@ -1,2 +1,10 @@
-%h1 Posts#new
-%p Find me in app/views/posts/new.html.haml
+%h1 Sign up
+
+= form_for(@post) do |f|
+  = f.label :title
+  = f.text_field :title
+
+  = f.label :body
+  = f.text_field :body
+
+  = f.submit 'Add post'

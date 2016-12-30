@@ -1,0 +1,5 @@
+%li
+  %h3= post.title
+  %p= post.body
+  %span= "by: #{post.user.name}" if logged_in? 
+
